@@ -40,11 +40,6 @@ app.get("/", (req, res) => {
     namaTopik: "Perumahan - Iuran Warga",
     resource: "resident-fees",
     endpoints: [
-      "GET /resident-fees",
-      "GET /resident-fees/:id",
-      "POST /resident-fees",
-      "PUT /resident-fees/:id",
-      "DELETE /resident-fees/:id",
     ]
   });
 });

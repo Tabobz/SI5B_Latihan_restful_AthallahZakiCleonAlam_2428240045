@@ -29,3 +29,11 @@ Install dependency:
 
 ```bash
 npm install
+
+## Link GitHub
+
+https://github.com/Tabobz/tugas1-restful-2428240045
+
+## Link Vercel
+
+https://tugas1-restful-2428240045.vercel.app/
