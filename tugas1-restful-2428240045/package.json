@@ -1,13 +1,18 @@
 {
   "name": "tugas1-restful-2428240045",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "RESTful API Iuran Warga - Topik 9 SI5B",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "restful-api",
+    "express",
+    "si5b"
+  ],
+  "author": "Athallah Zaki Cleon Alam",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
