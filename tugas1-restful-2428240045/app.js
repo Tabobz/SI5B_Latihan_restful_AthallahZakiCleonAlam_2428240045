@@ -137,7 +137,6 @@ app.put("/resident-fees/:id", (req, res) => {
 
   const index = residentFees.findIndex((item) => item.id === id);
 
-  // Validasi ID
   if (index === -1) {
     return res.status(404).json({
       status: "error",
@@ -154,7 +153,6 @@ app.put("/resident-fees/:id", (req, res) => {
     lunas
   } = req.body;
 
-  // Validasi field wajib
   if (!namaWarga) {
     return res.status(400).json({
       status: "error",
